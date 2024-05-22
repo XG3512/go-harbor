@@ -22,6 +22,10 @@ import (
 	"strings"
 )
 
+func init() {
+	http.DefaultTransport.(*http.Transport).TLSClientConfig = &tls.Config{InsecureSkipVerify: true}
+}
+
 // Interface captures the set of operations for generically interacting with Kubernetes REST apis.
 type Interface interface {
 	Verb(verb string) *Request

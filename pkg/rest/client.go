@@ -16,6 +16,7 @@ See the License for the specific language governing permissions and
 package rest
 
 import (
+	"crypto/tls"
 	flowcontrol2 "github.com/XG3512/go-harbor/pkg/rest/util/flowcontrol"
 	"net/http"
 	"net/url"

@@ -1,4 +1,4 @@
-module github.com/TimeBye/go-harbor
+module github.com/XG3512/go-harbor
 
 go 1.21
 

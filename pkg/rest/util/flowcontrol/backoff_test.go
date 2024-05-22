@@ -17,7 +17,7 @@ limitations under the License.
 package flowcontrol
 
 import (
-	clock2 "github.com/TimeBye/go-harbor/pkg/rest/util/clock"
+	clock2 "github.com/XG3512/go-harbor/pkg/rest/util/clock"
 	"testing"
 	"time"
 )

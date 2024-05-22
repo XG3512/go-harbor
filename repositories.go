@@ -2,7 +2,7 @@ package harbor
 
 import (
 	"fmt"
-	"github.com/TimeBye/go-harbor/pkg/model"
+	"github.com/XG3512/go-harbor/pkg/model"
 	"github.com/parnurzeal/gorequest"
 	"time"
 )

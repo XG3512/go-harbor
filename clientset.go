@@ -16,8 +16,8 @@ See the License for the specific language governing permissions and
 package harbor
 
 import (
-	client2 "github.com/TimeBye/go-harbor/pkg/client"
-	rest2 "github.com/TimeBye/go-harbor/pkg/rest"
+	client2 "github.com/XG3512/go-harbor/pkg/client"
+	rest2 "github.com/XG3512/go-harbor/pkg/rest"
 )
 
 func NewClientSet(host, username, password string) (clientSet *client2.Clientset, err error) {

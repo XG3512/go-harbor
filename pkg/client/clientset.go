@@ -17,10 +17,10 @@ package client
 
 import (
 	"fmt"
-	project2 "github.com/TimeBye/go-harbor/pkg/project"
-	rest2 "github.com/TimeBye/go-harbor/pkg/rest"
-	flowcontrol2 "github.com/TimeBye/go-harbor/pkg/rest/util/flowcontrol"
-	"github.com/TimeBye/go-harbor/pkg/user"
+	project2 "github.com/XG3512/go-harbor/pkg/project"
+	rest2 "github.com/XG3512/go-harbor/pkg/rest"
+	flowcontrol2 "github.com/XG3512/go-harbor/pkg/rest/util/flowcontrol"
+	"github.com/XG3512/go-harbor/pkg/user"
 )
 
 type Interface interface {

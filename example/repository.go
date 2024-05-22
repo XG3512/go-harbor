@@ -17,9 +17,9 @@ package example
 
 import (
 	"fmt"
-	"github.com/TimeBye/go-harbor"
-	"github.com/TimeBye/go-harbor/pkg/model"
-	"github.com/TimeBye/go-harbor/pkg/project/options"
+	"github.com/XG3512/go-harbor"
+	"github.com/XG3512/go-harbor/pkg/model"
+	"github.com/XG3512/go-harbor/pkg/project/options"
 )
 
 func Repositories(host, username, password string) error {

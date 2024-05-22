@@ -16,8 +16,8 @@ See the License for the specific language governing permissions and
 package user
 
 import (
-	"github.com/TimeBye/go-harbor/pkg/model"
-	rest2 "github.com/TimeBye/go-harbor/pkg/rest"
+	"github.com/XG3512/go-harbor/pkg/model"
+	rest2 "github.com/XG3512/go-harbor/pkg/rest"
 	"github.com/goharbor/harbor/src/common/models"
 )
 

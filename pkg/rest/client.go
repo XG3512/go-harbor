@@ -16,7 +16,7 @@ See the License for the specific language governing permissions and
 package rest
 
 import (
-	flowcontrol2 "github.com/TimeBye/go-harbor/pkg/rest/util/flowcontrol"
+	flowcontrol2 "github.com/XG3512/go-harbor/pkg/rest/util/flowcontrol"
 	"net/http"
 	"net/url"
 	"strings"
@@ -124,13 +124,14 @@ func (c *RESTClient) Delete() *Request {
 // c, err := NewRESTClient(...)
 // if err != nil { ... }
 // resp, err := c.Verb("GET").
-//  Path("pods").
-//  SelectorParam("labels", "area=staging").
-//  Timeout(10*time.Second).
-//  Do()
+//
+//	Path("pods").
+//	SelectorParam("labels", "area=staging").
+//	Timeout(10*time.Second).
+//	Do()
+//
 // if err != nil { ... }
 // list, ok := resp.(*api.PodList)
-//
 func (c *RESTClient) Verb(verb string) *Request {
 	if c.Client == nil {
 		return NewRequest(nil, verb, c.base, c.headers, c.versionedAPIPath, c.contentConfig, c.Throttle, 0)

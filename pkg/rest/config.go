@@ -19,7 +19,7 @@ import (
 	"context"
 	"encoding/base64"
 	"fmt"
-	flowcontrol2 "github.com/TimeBye/go-harbor/pkg/rest/util/flowcontrol"
+	flowcontrol2 "github.com/XG3512/go-harbor/pkg/rest/util/flowcontrol"
 	"net"
 	"net/http"
 	"time"

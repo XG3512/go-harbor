@@ -17,9 +17,9 @@ package project
 
 import (
 	"fmt"
-	"github.com/TimeBye/go-harbor/pkg/model"
-	"github.com/TimeBye/go-harbor/pkg/project/options"
-	rest2 "github.com/TimeBye/go-harbor/pkg/rest"
+	"github.com/XG3512/go-harbor/pkg/model"
+	"github.com/XG3512/go-harbor/pkg/project/options"
+	rest2 "github.com/XG3512/go-harbor/pkg/rest"
 )
 
 type ArtifactInterface interface {

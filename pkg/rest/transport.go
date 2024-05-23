@@ -15,7 +15,14 @@ See the License for the specific language governing permissions and
 
 package rest
 
-import "net/http"
+import (
+	"crypto/tls"
+	"net/http"
+)
+
+func init() {
+	http.DefaultTransport.(*http.Transport).TLSClientConfig = &tls.Config{InsecureSkipVerify: true}
+}
 
 func TransportFor() *http.Transport {
 	t := http.DefaultTransport.(*http.Transport).Clone()
